@@ -43,7 +43,7 @@ HERO_DOTS.forEach((dot,index) => dot.addEventListener('click', () => {
     });
 
     dot.classList.add('active');
-    HERO__IMAGE.src = `/assets/hero_${index + 1}.jpg`;
+    HERO__IMAGE.src = `assets/hero_${index + 1}.jpg`;
     HERO__TITLE.textContent = HERO__TITLES[index];
     HERO__SUBTITLE.textContent = HERO__SUBTITLES[index];
 })
